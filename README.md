@@ -262,6 +262,9 @@ Use this guide: [link](https://lightningchart.com/python-charts/docs/charts/char
 
 </details>
 
+`Output:`
+![3dscatter gif](md_images/3dscatter.gif)
+
 ### Analysis:
 > Age seems not to contribute so much to the outcome, we can check it by using Bar Chart
 
