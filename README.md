@@ -77,7 +77,7 @@ You can verify installation of python and pip by typing `python --version` and `
 For IDE (integrated development environment) I recommend using [PyCharm](https://www.jetbrains.com/pycharm/download/?section=mac) as it is clean and powerful. However, full version is paid so you can also use [VSCode](https://code.visualstudio.com/).
 
 :exclamation: **Important:**
-In this project it is better to use either Pychrm **Professional** or VSCode.
+In this project it is better to use either Pycharm **Professional** or VSCode.
 
 (*Optional*) You may want to set up `venv` (Python virtual environment) so you can install packages there and not clutter the Python installation.
 Environment creating instructions:
