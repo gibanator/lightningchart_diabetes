@@ -1,3 +1,26 @@
+# Chronic disease dashboard with LightningChart Python
+## Introduction
+**Predictive analytics** nowadays play a huge role in healthcare system. In US, nearly 90% of resources spent on healthcare goes on managing chronic diseases, including diabetes.
+
+Thus, it is an important topic to consider when working on medical data.
+
+### Datasets
+There are numerous datasets, which you can find at different healthcare institution portals (e.g. [data.gov](https://catalog.data.gov/dataset?tags=diabetes)) or dataset-related sites (e.g. [kaggle.com](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)).
+
+In this project we will review the Diabetes dataset from Kaggle and perform some basic analysis with different types of visualization. We will try to perform some chronic disease prediction.
+
+## LightningChart Python
+For this task we may use [LightningChart](https://lightningchart.com/python-charts/) library. It provides a wide range of tools for creating graphs that can be useful for flow cytometry white cell analysis in Python. \
+In this project, we will use:
+1. - XY Chart ([Link to docs](https://lightningchart.com/python-charts/docs/charts/chart-xy/)) \
+   *in combination with*
+   - Point Series ([Link to docs](https://lightningchart.com/python-charts/docs/charts/chart-xy/#point-series))
+
+2. 3D Chart ([Link to docs](https://lightningchart.com/python-charts/docs/charts/chart-3d/)), also with Point Series
+3. Stacked Bar Chart ([Link to docs](https://lightningchart.com/python-charts/docs/charts/bar-chart/#stacked-bar-chart))
+4. Box Plots ([Link to docs](https://lightningchart.com/python-charts/docs/charts/box-plot/))
+
+LightningChart provides easily-to-initialize charts that are also easily and widely customizabl, so we will use this library for the visualizations.
 ## Setting Up Python Environment
 For chronic disease visualization in Python, first we need to set up our Python environment. 
 ### Installation of Python on Mac
