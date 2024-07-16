@@ -49,7 +49,7 @@ This command will install the latest stable version of python.
   You can access the <a href = 'https://www.python.org/downloads/macos/'>official Python website</a>, select the      latest stable version downloader for MacOS (it is named macOS 64-bit universal2 installer) and follow the installation instructions.
 </details>
 
-You can check the version using `python3 –version` in Terminal.
+You can check the version using `python3 –-version` in Terminal.
 > If it displays `Unknown command` error, it is most likely due to PATH variables. Refer to  
 [this guide](https://www.mygreatlearning.com/blog/add-python-to-path/) to fix.
 
