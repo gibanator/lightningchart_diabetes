@@ -20,7 +20,7 @@ In this project, we will use:
 3. Stacked Bar Chart ([Link to docs](https://lightningchart.com/python-charts/docs/charts/bar-chart/#stacked-bar-chart))
 4. Box Plots ([Link to docs](https://lightningchart.com/python-charts/docs/charts/box-plot/))
 
-LightningChart provides easily-to-initialize charts that are also easily and widely customizabl, so we will use this library for the visualizations.
+LightningChart provides easily-to-initialize charts that are also easily and widely customizable, so we will use this library for the visualizations.
 ## Setting Up Python Environment
 For chronic disease visualization in Python, first we need to set up our Python environment. 
 ### Installation of Python on Mac
