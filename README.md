@@ -10,7 +10,7 @@ There are numerous datasets, which you can find at different healthcare institut
 In this project we will review the Diabetes dataset from Kaggle and perform some basic analysis with different types of visualization. We will try to perform some chronic disease prediction.
 
 ## LightningChart Python
-For this task we may use [LightningChart](https://lightningchart.com/python-charts/) library. It provides a wide range of tools for creating graphs that can be useful for flow cytometry white cell analysis in Python. \
+For this task we may use [LightningChart](https://lightningchart.com/python-charts/) library. It provides a wide range of tools for creating graphs that can be useful for chronic disease prediction in Python. \
 In this project, we will use:
 1. - XY Chart ([Link to docs](https://lightningchart.com/python-charts/docs/charts/chart-xy/)) \
    *in combination with*
@@ -242,8 +242,8 @@ scatter.open()
 ### Analysis:
 By looking at this chart the correlation between these two characteristics and the disease is visible:
 
-> Those with high Glucose and BMI are more likely to have diabetes. However, high glucose numbers contrubite to the diagnosis more than BMI.
-> Also, those with low BMI usually have less glucose levels.
+Those with high Glucose and BMI are more likely to have diabetes. However, high glucose numbers contrubite to the diagnosis more than BMI.
+Also, those with low BMI usually have less glucose levels.
 
 ---
 
@@ -289,7 +289,7 @@ Use this guide: [link](https://lightningchart.com/python-charts/docs/charts/char
 ![3dscatter gif](md_images/3dscatter.gif)
 
 ### Analysis:
-> Age seems not to contribute so much to the outcome, we can check it by using Bar Chart
+Age seems not to contribute so much to the outcome, we can check it by using Bar Chart
 
 ---
 
@@ -319,7 +319,7 @@ barchart_stacked.open()
 ![stacked bar chart](md_images/stackedbar.png)
 
 ### Analysis:
-> Though the age groups (31-50) and (51-81) aren't as numerical as (21-30), percentage-wise we can say that the older the person, the higher the risk of diabetes.
+Though the age groups (31-50) and (51-81) aren't as numerical as (21-30), percentage-wise we can say that the older the person, the higher the risk of diabetes.
 
 ---
 
@@ -342,7 +342,7 @@ boxplt.open()
 ![box plot glucose](md_images/box_glucose.png)
 
 ### Analysis
-> This supports the tendency we saw in scatter plot: Diabetes-positive patients have higher levels of glucose.
+This supports the tendency we saw in scatter plot: Diabetes-positive patients have higher levels of glucose.
 
 
 ### Another box plot (Number of pregnancies)
@@ -365,7 +365,7 @@ boxplt1.open()
 ![box plot pregnancy](md_images/box_pregnancy.png)
 
 ### Analysis
-> Most likely diabetes depends on the number of pregnancies, but the dependence is not that strong
+Most likely diabetes depends on the number of pregnancies, but the dependence is not that strong
 
 ## Conclusion
 In this guide, we did a chronic disease visualization in Python. We used Jupyter notebook along with libraries `lightningchart` and `pandas`. 
